@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Login/register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script src="vendor/flipclock.js"></script>
+    <link rel="stylesheet" href="stylesheet/flipclock.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/js.js"></script>
+    <script src="vendor/flipclock.js"></script>
+    <link rel="stylesheet" href="stylesheet/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/font-awesome.css">
+    <link rel="stylesheet" href="stylesheet/ionicons.min.css">
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+
+</head>
+
+<body>
+     <header>
+        <div class="topheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="topheader__text">Chào mừng đến với sàn giao dịch <b>CoinWorld</b>
+                        </div>
+                    </div>                
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="select_languages">
+                            <select name="" id="">
+                                <option>Ngôn ngữ</option>
+                                <option>Việt Nam</option>
+                                <option>Enghlish</option>
+                            </select>
+                            <img src="images/Flang_of_VN.png" alt="">
+                            <img src="images/Flang_of_Engs.png" alt="">
+                        </div>
+                        <!-- select_language -->
+                    </div>
+                    <!-- end col-sm-3 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end top header -->
+        <nav class="navbar navbar-light bg-faded nav--custom">
+            <div class="container">
+                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                    &#9776;
+                </button>
+                <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">
+                    </a>
+                    <ul class="nav navbar-nav float-sm-right nav--list">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Trang chủ <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mua bán <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hướng dẫn <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary login " href="#">Đăng ký/ Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end container -->
+        </nav>
+        <!-- end nav -->
+        <div class="nav-mobile">
+            <div class="navbar-mobile-top">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-xs-3 col-sm-4">
+                    <div class="menu-toggle">
+                    <div class="one "></div>
+                    <div class="two "></div>
+                    <div class="three"></div>
+                </div>
+                <!-- end container  -->
+                </div>
+             </div>
+            </div>
+            </div>
+            <!-- end menu-toggle -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="navbar-mobile menu-section">
+                            <div class="region region-main-menu hide">
+                                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">
+                                    </a>
+                                    <ul class="nav--list">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#">Trang chủ<span class="nav--line"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Mua bán<span class="nav--line"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Hướng dẫn<span class="nav--line"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link login" href="login.html">Đăng ký/ Đăng nhập</a>
+                                        </li>
+                                    </ul>
+                           
+                            </div>
+                            <!-- end menu region -->
+                        </div>
+                        <!-- end menu-section -->
+                    </div>
+                </div>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end nav-mobile     -->
+    </header>
+    <!-- end header -->
+    <section>
+        <div class="page-setting">
+        <div class="page-login_banner">
+                <div class="page-login-text">
+                    <div class="container">
+                        <p class="mask-title">Đăng nhập / Đăng ký</p>
+                        <p class="mask-location"><span class="source">Home</span><span class="fa fa-arrow-right"></span>Bán Bitcoin</p>
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end page login text -->
+            </div>
+            <!-- end page-login-banner -->
+        <div class="page-setting-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul class="setting-menu">
+                            <li class="active">Bảo mật Authy</li>
+                            <li>Thông báo</li>
+                            <li>Hồ sơ</li>
+                            <li>Những thiết bị đã dùng</li>
+                            <li>Danh sách đen</li>
+                            <li>Lịch sử truy cập</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 ">
+                        <div class="setting-content">
+                            <ul>
+                                <li class="big show">
+                                    <div class="setting-security">
+                                        <div class="list_title">Bảo mật Authy</div>
+                                        <p>Bảo mật kém: Bảo mật Authy đang <b class="cl-pink">TẮT.</b><b class="cl-green hide">BẬT.</b>
+                                        </p>
+                                        <button class="btn btn-success setting-active"><span class="action">KÍCH HOẠT</span> <span class="cl-white hide">NGỪNG KÍCH HOẠT</span></button>
+                                    </div>
+                                </li>
+                                <li class="big">
+                                    <div class="setting-security">
+                                        <div class="list_title">Thông báo</div>
+                                        <div class="security-content">
+                                            <div class="security-title">Thông báo qua email</div>
+                                            <div class="security-text">
+                                                <p>Có giao dịch mới</p>
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                            <div class="security-text">
+                                                <p>Trạng thái giao dịch thay đổi</p>
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                            <div class="security-text">
+                                                <p>Tin nhắn từ giao dịch</p>
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="security-content">
+                                            <div class="security-title">Thông báo qua điện thoại</div>
+                                            <div class="security-text">
+                                                <p>Có giao dịch mới</p>
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                            <div class="security-text">
+                                                <p>Giao dịch được thanh toán</p>
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="big">
+                                    <div class="setting-rofile">
+                                        <div class="list_title">Hồ sơ</div>
+                                        <div class=" profile-content">
+                                            <div class="profile-fill-inf">
+                                                <div class="profile-name">Email</div>
+                                                <input type="text" class="profile-input">
+                                            </div><!-- end profile-fill -->
+                                            <div class="profile-fill-inf">
+                                                <div class="profile-name">Bí danh</div>
+                                                <input type="text" class="profile-input">
+                                            </div><!-- end profile-fill -->
+                                            <div class="profile-fill-inf">
+                                                <div class="profile-name">Tên</div>
+                                                <input type="text" class="profile-input">
+                                            </div><!-- end profile-fill -->
+
+                                            
+                                            <div class="security-text">
+                                                <p>Nhận báo cáo hàng ngày</p>
+                                                <label class="switch">
+                                                    <input type="checkbox">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                            <div class="profile-chose-inf">
+                                                <div class="profile-name">Điện thoại</div>
+                                                <div class="profile-state cl-green">
+                                                    Đã xác mình <a href="#" class="changes">Đổi số điện thoại</a>
+                                                </div><!-- end profile-chose -->
+                                            </div>
+                                            <div class="profile-chose-inf">
+                                                <div class="profile-name">Tình trạng tài khoản</div>
+                                                <div class="profile-state cl-pink">
+                                                    Bị từ chối <a href="#" class="changes">Bị từ chối</a>
+                                                </div>
+                                            </div><!-- end profile-chose -->
+                                            <div class="profile-chose-inf">
+                                                <div class="profile-name">Facebook</div>
+                                                <div class="profile-state fa fa-facebook-official">
+                                                     <a href="#" class="changes">Kết nối với Facebook</a>
+                                                </div>
+                                            </div><!-- end profile-chose -->
+                                             <div class="profile-chose-inf">
+                                                <div class="profile-name">Facebook</div>
+                                                <div class="profile-state fa fa-twitter">
+                                                     <a href="#" class="changes">Kết nối với twitter</a>
+                                                </div>
+                                            </div><!-- end profile-chose -->
+                                        </div>
+                                        
+                                    </div><!-- end profile -->
+                                </li><!-- end li -big -->
+                                <li class="big">
+                                    <div class="setting-security">
+                                    <div class="list_title">Thông báo</div>
+                                    <p>Chưa có thiết bị nào</p>
+                                    </div>
+                                </li><!-- end li-big -->
+                                <li class="big">
+                                    
+                                    <div style="overflow-x:auto;">
+                                          <table class="table-transaction black-list">
+                                            <tr class="table-title">
+                                              <th class="col-type">Loại giao dịch</th>
+                                              <th class="col-code"> Mã giao dịch</th>
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">nguyenvanan</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">moneylover</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">genkjid</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">thepmoi</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">vitcononline</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">thanhbitcoin</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">loaphuong</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td class="col-partner "><a href="">yeutien</a></td>
+                                              <td class="history-time">13/07/2017 <b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+
+                                          </table>
+                                        </div><!-- end table -->
+                                </li><!-- end li -->
+                                <li class="big">
+                                    <div class="list_title">Lịch sử truy cập</div><!-- end title -->
+                                    <div style="overflow-x:auto;">
+                                          <table class="table-transaction black-list">
+                                            <tr>
+                                              <th>Vị trí (Địa chỉ IP)</th>
+                                              <th> Thời điểm truy cập</th>
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+                                            <tr class="table-line" >
+                                              <td >Vietnam (192.168.1.1)</td>
+                                              <td class="history-time">13/07/2017<b>09:05PM</b>
+                                                </td>                                              
+                                            </tr>
+
+                                          </table>
+                                        </div><!-- end table -->
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end container -->
+            </div>
+        </div>
+        <!-- end page-setting -->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="" class="logo-ft"><img src="images/logo.png" alt="">
+                    </a>
+                    <div class="mail-ft"><span class="fa fa-envelope"></span>support@domain.com</div>
+                    <ul class="icon-socials">
+                        <li>
+                            <a href=""><img src="images/icn-fb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-tw.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-gg.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-yt.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="ft-more-inf">
+                        <div class="text">
+                            <div class="more-inf-title">
+                                <div class="more-name">GIỚI THIỆU</div>
+                                <div class="more-line"></div>
+                            </div>
+                            <!-- end more -->
+                            <ul class="more-list">
+                                <li><a href="">Về Chúng Tôi</a>
+                                </li>
+                                <li><a href="">Tuyển dụng</a>
+                                </li>
+                                <li><a href="">Truyền thông</a>
+                                </li>
+                                <li><a href="">Đội ngũ</a>
+                                </li>
+                                <li><a href="">Become our partner</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  end text -->
+                    </div>
+                    <!-- end more-inf -->
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="ft-more-inf">
+                        <div class="text">
+                            <div class="more-inf-title">
+                                <div class="more-name">Trợ giúp</div>
+                                <div class="more-line"></div>
+                            </div>
+                            <!-- end more -->
+                            <ul class="more-list">
+                                <li><a href="">Giao dịch đảm bảo</a>
+                                </li>
+                                <li><a href="">Những câu hỏi thường gặp</a>
+                                </li>
+                                <li><a href="">Hỗ trợ trực tuyến</a>
+                                </li>
+                                <li><a href="">Chính sách và Điều khoản</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--  end text -->
+                    </div>
+                    <!-- end more-inf -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href=""><img src="images/screen-fb.png" alt="" class="ft-fb">
+                    </a>
+                </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="finish">
+                    2017 CoinWorld. Made with love <span class="fa fa-heart"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

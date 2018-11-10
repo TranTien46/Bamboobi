@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Login/register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script src="vendor/flipclock.js"></script>
+    <link rel="stylesheet" href="stylesheet/flipclock.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/js.js"></script>
+    <script src="vendor/flipclock.min.js"></script>
+    <link rel="stylesheet" href="stylesheet/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet/font-awesome.css">
+    <link rel="stylesheet" href="stylesheet/ionicons.css">
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="topheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="topheader__text">Chào mừng đến với sàn giao dịch <b>CoinWorld</b>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="select_languages">
+                            <select name="" id="">
+                                <option>Ngôn ngữ</option>
+                                <option>Việt Nam</option>
+                                <option>Enghlish</option>
+                            </select>
+                            <img src="images/Flang_of_VN.png" alt="">
+                            <img src="images/Flang_of_Engs.png" alt="">
+                        </div>
+                        <!-- select_language -->
+                    </div>
+                    <!-- end col-sm-3 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end top header -->
+        <nav class="navbar navbar-light bg-faded nav--custom">
+            <div class="container">
+                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                    &#9776;
+                </button>
+                <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">
+                    </a>
+                    <ul class="nav navbar-nav float-sm-right nav--list">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Trang chủ <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mua bán <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hướng dẫn <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary login " href="#">Đăng ký/ Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end container -->
+        </nav>
+        <!-- end nav -->
+        <div class="nav-mobile">
+            <div class="navbar-mobile-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-4">
+                            <div class="menu-toggle">
+                                <div class="one "></div>
+                                <div class="two "></div>
+                                <div class="three"></div>
+                            </div>
+                            <!-- end container  -->
+                        </div>
+
+                     
+                    </div>
+                </div>
+            </div>
+            <!-- end menu-toggle -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="navbar-mobile menu-section">
+                            <div class="region region-main-menu hide">
+                                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">
+                                </a>
+                                <ul class="nav--list">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Trang chủ<span class="nav--line"></span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Mua bán<span class="nav--line"></span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Hướng dẫn<span class="nav--line"></span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link login" href="login.html">Đăng ký/ Đăng nhập</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- end menu region -->
+                        </div>
+                        <!-- end menu-section -->
+                    </div>
+                </div>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end nav-mobile     -->
+    </header>
+    <!-- end header -->
+    <section class="page-creat-ads">
+        <div class="page-login_banner">
+            <div class="page-login-text">
+                <div class="container">
+                    <p class="mask-title">Tạo quảng cáo</p>
+
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end page login text -->
+        </div>
+        <!-- end page-login-banner -->
+        <div class="container inf-ads">
+            <div class="inf-ads-line ">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="list_title ads-title">Thông tin quảng cáo</div>
+                    </div>
+                    <!-- col-12 -->
+                </div>
+                <!-- row -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Loại tiền tệ
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <select>
+                                <option>Bitcoin</option>
+                                <option>VND</option>
+                                <option>Dolad</option>
+                            </select>
+                        </div>
+                        <!-- end block-left -->
+                        <div class="block-right">Với mỗi loại tiền tệ sẽ có những chính sách khác nhau</div>
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row type-money -->
+
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Loại tiền tệ
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <ul>
+                                <li>
+                                    <input type="radio" id="buy" name="buy-sell" value="MUA">
+                                    <label for="buy" class="radio-buy">MUA</label>
+
+                                </li>
+                                <li>
+                                    <input type="radio" id="sell" name="buy-sell" value="BÁN">
+                                    <label for="sell" class="radio-buy radio-sell">BÁN</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end block-left -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row radio -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Giá bitUSD ( <i>tỉ giá Bitstamp</i> <span class="cl-radio">2565.64</span> )
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <input type="text" class="cost-vnd">
+                            <input type="text" class="cost-vnd-show" readonly="True" value="VND / bitUSD">
+                        </div>
+                        <!-- end block-left -->
+                        <div class="block-right">Giá 1 bitUSD theo VND</div>
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row cost-bit -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Giá BTC bạn thực nhận
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <b>58,322,128 VND / BTC</b>
+                        </div>
+                        <!-- end block-left -->
+                        <div class="block-right pd-0">Đây là giá tương ứng với tỉ giá Bitstamp (Blockchain) hiện tại </div>
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row buy-cost -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Số tiền tối thiểu
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <input type="text" class="cost-vnd" value="22,732.0">
+                            <input type="text" class="cost-vnd-show" readonly="True" value="BTC">
+                        </div>
+                        <!-- end block-left -->
+                        <div class="block-right pb-5">Hạn mức giao dịch tối thiểu trong một giao dịch. (Ít nhất là 0.02 BTC)</div>
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row min-cost-->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Số tiền tối đa
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <input type="text" class="cost-vnd" value="22,732.0">
+                            <input type="text" class="cost-vnd-show" readonly="True" value="BTC">
+                        </div>
+                        <!-- end block-left -->
+                        <div class="block-right pb-5">Nếu bạn là người bán, số dư trong ví BTC bạn có thể giới hạn lượng giao dịch tối đa. (Tối đa là 100 BTC)</div>
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row max-cost -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="block-left ads-inf-block-act">
+                            <div class="show-more-text"><span class="fa fa-caret-down"></span>Xem thêm</div>
+
+                        </div>
+                        <!-- end block-left -->
+
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row show-more-text -->
+
+                <div class="show-more">
+                    <div class="line-show-more"></div>
+                    <div class="row block-ads-inf">
+                        <div class="col-lg-12">
+                            <div class="ads-inf-block-title">
+                                Giá BTC bạn thực nhận
+                            </div>
+                            <div class="block-left ads-inf-block-act">
+                                <b>58,322,128 VND / BTC</b>
+                            </div>
+                            <!-- end block-left -->
+                            <div class="block-right pd-0">Đây là giá tương ứng với tỉ giá Bitstamp (Blockchain) hiện tại </div>
+                            <!-- end block-right -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row cost- -->
+                    <div class="row block-ads-inf">
+                        <div class="col-lg-12">
+                            <div class="ads-inf-block-title">
+                                Đơn vị tiền tệ
+                            </div>
+                            <div class="block-left ads-inf-block-act">
+                                <input type="text" class="cost-vnd-show fix-inf" readonly="True" value="VND ">
+                                <select class="cost-vnd-show fix-inf hidden">
+                                    <option>VND</option>
+                                    <option>PLN</option>
+                                    <option>NOK</option>
+                                    <option>USD</option>
+                                    <option>RUB</option>
+                                    <option>MXN</option>
+                                </select>
+                                <div class="fix">
+                                    <span class="fa fa-pencil"></span> Sửa
+                                </div>
+                            </div>
+                            <!-- end block-left -->
+                            <div class="block-right">Đơn vị tiền tệ để đổi lấy BTC</div>
+                            <!-- end block-right -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row block-ads-inf">
+                        <div class="col-lg-12">
+                            <div class="ads-inf-block-title">
+                                Giá BTC tối thiểu
+                            </div>
+                            <div class="block-left ads-inf-block-act">
+                                <input type="text" class="cost-vnd-show fix-inf" readonly="True" value="Chưa thiết lập">
+                                <input type="text" class="cost-vnd-show fix-inf hidden" value="Chưa thiết lập">
+                                <div class="fix">
+                                    <span class="fa fa-pencil "></span> Sửa
+                                </div>
+                            </div>
+                            <!-- end block-left -->
+                            <div class="block-right">Đơn vị tiền tệ để đổi lấy BTC</div>
+                            <!-- end block-right -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row block-ads-inf">
+                        <div class="col-lg-12">
+                            <div class="ads-inf-block-title">
+                                Sàn giao dịch tham khảo
+
+                            </div>
+                            <div class="block-left ads-inf-block-act">
+                                <input type="text" class="cost-vnd-show fix-inf" readonly="True" value="Bitstamp (Blockchain)">
+                                <select class="cost-vnd-show fix-inf hidden">
+                                    <option>Bitstamp (Blockchain)</option>
+                                    <option>Bitifinex</option>
+                                    <option>BTC-e</option>
+                                    <option>Kraken EUR</option>
+                                </select>
+                                <div class="fix">
+                                    <span class="fa fa-pencil "></span> Sửa
+                                </div>
+                            </div>
+                            <!-- end block-left -->
+                            <div class="block-right">Sàn giao dịch được dùng để cập nhập giá cho quảng cáo của bạn</div>
+                            <!-- end block-right -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row block-ads-inf">
+                        <div class="col-lg-12">
+                            <div class="ads-inf-block-title">
+                                Thời gian cho phép thanh toán
+                            </div>
+                            <div class="block-left ads-inf-block-act">
+                                <input type="text" class="cost-vnd-show fix-inf" readonly="True" value="15 phút">
+                                <select class="cost-vnd-show fix-inf hidden">
+                                    <option>15</option>
+                                    <option>30</option>
+                                </select>
+                                <div class="fix">
+                                    <span class="fa fa-pencil "></span> Sửa
+                                </div>
+                            </div>
+                            <!-- end block-left -->
+                            <div class="block-right pd-5">Nếu người mua không hoàn thành thanh toán trong thời gian này, giao dịch sẽ bị huỷ tự động</div>
+                            <!-- end block-right -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row block-ads-inf">
+                        <div class="col-lg-12">
+                            <div class="ads-inf-block-title">
+                                Vị trí
+                            </div>
+                            <div class="block-left ads-inf-block-act">
+                                <input type="text" class="cost-vnd-show fix-inf" readonly="True" value="Việt Nam">
+                                <select class="cost-vnd-show fix-inf hidden">
+                                    <option>Việt Nam </option>
+                                    <option>Thái Lan</option>
+                                    <option>USA</option>
+                                    <option>Taiwwan</option>
+                                    <option>Singapore</option>
+                                </select>
+                                <div class="fix">
+                                    <span class="fa fa-pencil "></span> Sửa
+                                </div>
+                            </div>
+                            <!-- end block-left -->
+                            <div class="block-right">Hạn mức giao dịch tối thiểu trong một giao dịch. (Ít nhất là 0.02 BTC)</div>
+                            <!-- end block-right -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row block-ads-inf">
+                        <div class="col-lg-12">
+                            <div class="ads-inf-block-title">
+                                Từ chối người mua chưa xác minh
+                            </div>
+                            <div class="block-left ads-inf-block-act">
+                                <input type="text" class="cost-vnd-show fix-inf" readonly="True" value="Không từ chối">
+                                <select class="cost-vnd-show fix-inf hidden">
+                                    <option>Không từ chối </option>
+                                    <option>Có từ chối</option>
+                                </select>
+                                <div class="fix">
+                                    <span class="fa fa-pencil "></span> Sửa
+                                </div>
+                            </div>
+                            <!-- end block-left -->
+                            <div class="block-right">Hạn mức giao dịch tối thiểu trong một giao dịch. (Ít nhất là 0.02 BTC)</div>
+                            <!-- end block-right -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                        <div class="block-left ads-inf-block-act">
+                            <div class="show-less-text"><span class="fa fa-caret-up"></span>Thu gọn</div>
+
+                        </div>
+                </div><!-- end show-more -->
+            </div>
+            <!-- end container inf-ads -->
+            <div class="inf-ads-line inf-ads-line-gray">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="list_title ads-title">Thông tin thanh toán</div>
+                    </div>
+                    <!-- col-12 -->
+                </div>
+                <!-- row -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Phương thức thanh toán
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <b>Chuyển khoản ngân hàng</b>
+                        </div>
+                        <!-- end block-left -->
+                        <div class="block-right pd-0">Phương thức thanh toán cho quảng cáo này </div>
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row buy-cost -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Ngân hàng
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <input type="text" class="fill-inf">
+                        </div>
+                        <!-- end block-left -->
+
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row type-money -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Số tài khoản
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <input type="text" class="fill-inf">
+                        </div>
+                        <!-- end block-left -->
+
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row type-money -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Tên tài khoản
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <input type="text" class="fill-inf">
+                        </div>
+                        <!-- end block-left -->
+
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row type-money -->
+                <div class="row block-ads-inf">
+                    <div class="col-lg-12">
+                        <div class="ads-inf-block-title">
+                            Số thẻ ATM/Visa
+                        </div>
+                        <div class="block-left ads-inf-block-act">
+                            <input type="text" class="fill-inf">
+                        </div>
+                        <!-- end block-left -->
+                        <div class="block-right pd-0">Phục vụ cho các ngân hàng <span><a href="">(chi tiết)</a></span> hỗ trợ phương thức chuyển tiền từ tài khoản đến thẻ giúp giao dịch trở nên nhanh chóng kể cả liên ngân hàng</div>
+                        <!-- end block-right -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row type-money -->
+            </div><!-- end inf-ads-line-gray -->
+            <div class="inf-ads-line inf-ads-circle">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="create-ads-success.html">
+                            <button class="btn-done btn btn-info">Tạo quảng cáo</button>
+                        </a>
+                    </div>
+                    <!-- col-12 -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- end container inf-ads -->
+        </div><!-- end inf-ads -->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="" class="logo-ft"><img src="images/logo.png" alt="">
+                    </a>
+                    <div class="mail-ft"><span class="fa fa-envelope"></span>support@domain.com</div>
+                    <ul class="icon-socials">
+                        <li>
+                            <a href=""><img src="images/icn-fb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-tw.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-gg.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-yt.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="ft-more-inf">
+                        <div class="text">
+                            <div class="more-inf-title">
+                                <div class="more-name">GIỚI THIỆU</div>
+                                <div class="more-line"></div>
+                            </div>
+                            <!-- end more -->
+                            <ul class="more-list">
+                                <li><a href="">Về Chúng Tôi</a>
+                                </li>
+                                <li><a href="">Tuyển dụng</a>
+                                </li>
+                                <li><a href="">Truyền thông</a>
+                                </li>
+                                <li><a href="">Đội ngũ</a>
+                                </li>
+                                <li><a href="">Become our partner</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  end text -->
+                    </div>
+                    <!-- end more-inf -->
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="ft-more-inf">
+                        <div class="text">
+                            <div class="more-inf-title">
+                                <div class="more-name">Trợ giúp</div>
+                                <div class="more-line"></div>
+                            </div>
+                            <!-- end more -->
+                            <ul class="more-list">
+                                <li><a href="">Giao dịch đảm bảo</a>
+                                </li>
+                                <li><a href="">Những câu hỏi thường gặp</a>
+                                </li>
+                                <li><a href="">Hỗ trợ trực tuyến</a>
+                                </li>
+                                <li><a href="">Chính sách và Điều khoản</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--  end text -->
+                    </div>
+                    <!-- end more-inf -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href=""><img src="images/screen-fb.png" alt="" class="ft-fb">
+                    </a>
+                </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="finish">
+                    2017 CoinWorld. Made with love <span class="fa fa-heart"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

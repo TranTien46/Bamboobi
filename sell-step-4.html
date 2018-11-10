@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Login/register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script src="vendor/flipclock.js"></script>
+    <link rel="stylesheet" href="stylesheet/flipclock.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/js.js"></script>
+    <script src="vendor/flipclock.min.js"></script>
+    <link rel="stylesheet" href="stylesheet/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet/font-awesome.css">
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="topheader__text">Chào mừng đến với sàn giao dịch <b>CoinWorld</b>
+                        </div>
+                    </div>                
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="select_languages">
+                            <select name="" id="">
+                                <option>Ngôn ngữ</option>
+                                <option>Việt Nam</option>
+                                <option>Enghlish</option>
+                            </select>
+                            <img src="images/Flang_of_VN.png" alt="">
+                            <img src="images/Flang_of_Engs.png" alt="">
+                        </div>
+                        <!-- select_language -->
+                    </div>
+                    <!-- end col-sm-3 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end top header -->
+        <nav class="navbar navbar-light bg-faded nav--custom">
+            <div class="container">
+                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                    &#9776;
+                </button>
+                <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">
+                    </a>
+                    <ul class="nav navbar-nav float-sm-right nav--list">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Trang chủ <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mua bán <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hướng dẫn <span class="nav--line"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary login " href="#">Đăng ký/ Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end container -->
+        </nav>
+        <!-- end nav -->
+        <div class="nav-mobile">
+            <div class="navbar-mobile-top">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-xs-3 col-sm-4">
+                    <div class="menu-toggle">
+                    <div class="one "></div>
+                    <div class="two "></div>
+                    <div class="three"></div>
+                </div>
+                <!-- end container  -->
+                </div>
+             </div>
+            </div>
+            </div>
+            <!-- end menu-toggle -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="navbar-mobile menu-section">
+                            <div class="region region-main-menu hide">
+                                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">
+                                    </a>
+                                    <ul class="nav--list">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#">Trang chủ<span class="nav--line"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Mua bán<span class="nav--line"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Hướng dẫn<span class="nav--line"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link login" href="login.html">Đăng ký/ Đăng nhập</a>
+                                        </li>
+                                    </ul>
+                           
+                            </div>
+                            <!-- end menu region -->
+                        </div>
+                        <!-- end menu-section -->
+                    </div>
+                </div>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end nav-mobile     -->
+    </header>
+    <!-- end header -->
+
+    <section>
+        <div class="page-buy-and-sell">
+            <div class="page-login_banner">
+                <div class="page-login-text">
+                    <div class="container">
+                        <p class="mask-title">Đăng nhập / Đăng ký</p>
+                        <p class="mask-location"><span class="source">Home</span><span class="fa fa-arrow-right"></span>Bán Bitcoin</p>
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end page login text -->
+            </div>
+            <!-- end page-login-banner -->
+           <div class="sell-step">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-3 col-xs-12">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number step-done fa fa-check-circle"></div>
+                                <div class="sell-step-text step-done">Khởi tạo giao dịch</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-12 ">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number step-done fa fa-check-circle"></div>
+                                <div class="sell-step-text  step-done">Thanh toán cho người mua</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-12 ">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number step-done fa fa-check-circle"></div>
+                                <div class="sell-step-text step-done">Chờ xác nhận</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-12">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number active-step">4</div>
+                                <div class="sell-step-text active-step">Hoàn thành</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end stpe -->
+            <!-- <div class="sell-step step-ipad">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-1 col-xs-12">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number step-done fa fa-check-circle"></div>    
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-1 col-xs-12 ">
+                            <div class="sell-step-list">
+                                 <div class="sell-step-number step-done fa fa-check-circle"></div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-1 col-xs-12 ">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number step-done fa fa-check-circle"></div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-9 col-xs-12">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number">4</div>
+                                <div class="sell-step-text active-step">Hoàn thành</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> --><!-- end step-ipad -->
+            <div class="sell-step sell-step-mobile">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-3 col-xs-12 ">
+                            <div class="sell-step-list">
+                                <div class="sell-step-number active-step ">4</div>
+                                <div class="sell-step-text active-step ">Hoàn thành</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buy-and-sell_content">
+                <div class="container">
+                    <div class="b-s_top">
+                        <div class="b-s-time row">
+                            <div class="col-lg-12">
+                                <div class="time-title">CHỜ NGƯỜI MUA THANH TOÁN</div>
+                                <div class="time-note">Bạn đang bán <b class="table-bg-org">0.07 BTC</b> cho <a href="">rongnuoc</a>. BTC của bạn đã được đóng băng cho giao dịch này. Sau khi nhận được thanh toán của người mua, vui long xác nhận để BTC giải phóng cho người mua</div>
+                                <!-- end time note -->
+                           <div class="backgroup-clock">
+                                <div class="time-clock">
+                                    <div class="clock flip-clock-wrapper">
+                                        <span class="flip-clock-divider hours">
+                                        <span class="flip-clock-label">Hours</span>
+                                        <span class="flip-clock-dot top"></span>
+                                        <span class="flip-clock-dot bottom"></span>
+                                        </span>
+                                        <ul class="flip ">
+                                            <li class="flip-clock-before">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="flip-clock-active">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">1</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">1</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="flip ">
+                                            <li class="flip-clock-before">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="flip-clock-active">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">3</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">3</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <span class="flip-clock-divider minutes">
+                                            <span class="flip-clock-label">Minutes</span>
+                                        <span class="flip-clock-dot top"></span>
+                                        <span class="flip-clock-dot bottom"></span>
+                                        </span>
+                                        <ul class="flip ">
+                                            <li class="flip-clock-before">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="flip-clock-active">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">2</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">2</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="flip  play">
+                                            <li class="flip-clock-before">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">1</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">1</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="flip-clock-active">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <span class="flip-clock-divider seconds">
+                                        <span class="flip-clock-label">Seconds</span>
+                                        <span class="flip-clock-dot top"></span>
+                                        <span class="flip-clock-dot bottom"></span>
+                                        </span>
+                                        <ul class="flip  play">
+                                            <li class="flip-clock-before">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">0</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="flip-clock-active">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">5</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">5</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="flip  play">
+                                            <li class="flip-clock-before">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">4</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">4</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="flip-clock-active">
+                                                <a href="#">
+                                                    <div class="up">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">3</div>
+                                                    </div>
+                                                    <div class="down">
+                                                        <div class="shadow"></div>
+                                                        <div class="inn">3</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- end time clock -->
+                                <div >
+                                    Hết thời gian thanh toán, giao dịch sẽ tự động hủy và chúng tôi sẽ trả Bitcoin lại cho bạn
+                                </div>
+                            </div>
+                            </div>
+                            <!-- col-12 -->
+                            <!-- end col-12 -->
+                        </div>
+                        <!-- b-s-time-top -->
+                    </div>
+                    <!-- b-s top -->
+                    <div class="note-danger">
+                        <b class="cl-pink">Cảnh báo</b> : <b>LỪA ĐẢO BẰNG MOBILE BANKING CỦA VIETCOMBANK !</b>
+                        Có lỗ hổng trên hệ thống của Vietcombank cho phép kẻ gian chuyển tiền cho bạn qua ứng dung Mobile banking và hủy giao dịch ngay sau đó. Vietcombank sẽ gửi 2 tin nhắn, trong đó có 1 tin nhắn bảo hủy giao dịch. Hãy kiểm tra kĩ và chờ đợi ít nhất 30s sau tin nhắn báo biến động số dư để tránh mắc bẫy kẻ gian.
+                    </div>
+
+                    <div class="row b-s-mid">
+                        <div class="col-lg-6">
+                            <div class="list_title b-s-title">Thông tin thanh toán</div>
+                            <div class="proflie-detail table-inf">
+                                <ul class="profile-list">
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Phương thức thanh toán</div>
+                                            <b class="profile-list-number">Chuyển khoản ngân hàng</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Số tiền sẽ nhận</div>
+                                            <b class="profile-list-number"><span class="table-cl-pink">58.775.287 VND</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Tên tài khoản</div>
+                                            <b class="profile-list-number">Nguyễn Văn An</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Phương thức thanh toán</div>
+                                            <b class="profile-list-number">Chuyển khoản: Vietcombank</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Số tài khoản</div>
+                                            <b class="profile-list-number">0201000218234</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Số thẻ ATM</div>
+                                            <b class="profile-list-number">0256 4587 6932 1547</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Nội dung chuyển khoản</div>
+                                            <b class="profile-list-number">annietran mua REMI tu aidonhi 45450T65287654</b>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- end profile-detail -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="list_title b-s-title">Tóm lược về aidonhi</div>
+                            <div class="proflie-detail table-inf">
+                                <ul class="profile-list profile-list-right">
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Phương thức thanh toán</div>
+                                            <b class="profile-list-number"><span class="table-bg-org">56,94846263 BTC</span></b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Lần truy cập cuối</div>
+                                            <b class="profile-list-number">10 phút trước</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Xác minh nhân thân và cư trú</div>
+                                            <b class="profile-list-number">Đã xác mình</b>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">Facebook</div>
+                                            <b class="profile-list-number">Chư gửi</b>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class=" row profile-lisst-content">
+                                            <div class="profile-list-name">twitter</div>
+                                            <b class="profile-list-number">Chưa gửi</b>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                                <!-- end ul -->
+                            </div>
+                            <!-- end profile-detail -->
+                        </div>
+                        <!-- end col-lg-6 -->
+                    </div>
+                    <!-- end row b-s-mid -->
+                </div>
+            </div>
+        </div>
+        <!-- end pad-login -->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="" class="logo-ft"><img src="images/logo.png" alt="">
+                    </a>
+                    <div class="mail-ft"><span class="fa fa-envelope"></span>support@domain.com</div>
+                    <ul class="icon-socials">
+                        <li>
+                            <a href=""><img src="images/icn-fb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-tw.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-gg.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/icn-yt.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="ft-more-inf">
+                        <div class="text">
+                            <div class="more-inf-title">
+                                <div class="more-name">GIỚI THIỆU</div>
+                                <div class="more-line"></div>
+                            </div>
+                            <!-- end more -->
+                            <ul class="more-list">
+                                <li><a href="">Về Chúng Tôi</a>
+                                </li>
+                                <li><a href="">Tuyển dụng</a>
+                                </li>
+                                <li><a href="">Truyền thông</a>
+                                </li>
+                                <li><a href="">Đội ngũ</a>
+                                </li>
+                                <li><a href="">Become our partner</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  end text -->
+                    </div>
+                    <!-- end more-inf -->
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="ft-more-inf">
+                        <div class="text">
+                            <div class="more-inf-title">
+                                <div class="more-name">Trợ giúp</div>
+                                <div class="more-line"></div>
+                            </div>
+                            <!-- end more -->
+                            <ul class="more-list">
+                                <li><a href="">Giao dịch đảm bảo</a>
+                                </li>
+                                <li><a href="">Những câu hỏi thường gặp</a>
+                                </li>
+                                <li><a href="">Hỗ trợ trực tuyến</a>
+                                </li>
+                                <li><a href="">Chính sách và Điều khoản</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--  end text -->
+                    </div>
+                    <!-- end more-inf -->
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href=""><img src="images/screen-fb.png" alt="" class="ft-fb">
+                    </a>
+                </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="finish">
+                    2017 CoinWorld. Made with love <span class="fa fa-heart"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<SCRIPT TYPE="text/javascript">
+    var clock;
+
+    $(document).ready(function() {
+        var clock;
+
+        clock = $('.clock').FlipClock({
+            clockFace: 'HourlyCounter',
+            autoStart: false,
+            callbacks: {
+                stop: function() {
+                    $('.message').html('The clock has stopped!');
+                }
+            }
+        });
+
+        clock.setTime(900);
+        clock.setCountdown(true);
+        clock.start();
+
+    });
+</SCRIPT>
+</html>
